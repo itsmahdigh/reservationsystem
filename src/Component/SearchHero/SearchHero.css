@@ -1,0 +1,37 @@
+.dropdown {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: #6633FF;
+        height: 100px;
+        width: 90%;
+        margin: auto;
+        border-radius: 10px;
+}
+
+.dropdown input {
+        display: flex;
+        margin: 30px;
+        height: 35px;
+        border-radius: 7px;
+        border: none;
+        width: 80%;
+        padding: 5px;
+}
+
+.search {
+        width: 10%;
+        height: 40px;
+        background-color: rgb(0, 247, 255);
+        border-radius: 7px;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.search link {
+        text-decoration: none;
+}

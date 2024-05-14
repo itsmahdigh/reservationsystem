@@ -1,0 +1,100 @@
+.login {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+}
+
+.right {
+        display: grid;
+        align-items: center;
+        height: 100vh;
+        border-radius: 0px 20px 20px 0px;
+        background-image: linear-gradient(to right, #6633FF, #6633FF, #0569FF);
+}
+
+.right h1 {
+        font-size: 50px;
+        font-weight: bolder;
+        color: white;
+}
+
+.right p {
+        width: 50%;
+        margin: auto;
+        color: white;
+        opacity: 0.6;
+}
+
+.inputs {
+        display: grid;
+        width: 70%;
+        margin: auto;
+        margin-top: 30px;
+
+}
+
+.inputs input {
+        border-radius: 7px;
+        border: gray solid 1px;
+        height: 30px;
+        text-align: right;
+        padding-right: 10px;
+}
+
+.left hr {
+        width: 85%;
+        margin: auto;
+        margin-top: 10px;
+}
+
+.pass {
+        margin-top: 25px;
+}
+
+.inputs button {
+        width: 40%;
+        margin: auto;
+        height: 35px;
+        border-radius: 7px;
+        color: white;
+        background-color: #6633FF;
+        border: none;
+        font-size: 20px;
+        font-weight: 800;
+        margin-top: 15px;
+        cursor: pointer;
+}
+
+.google {
+        margin-top: 10px;
+}
+
+.google a {
+        text-decoration: none;
+        color: black;
+
+}
+
+.forget {
+        font-size: 10px;
+        text-align: left;
+        text-decoration: none;
+        color: red;
+        margin-top: 5px;
+}
+
+.google span {
+        font-size: 20px;
+        font-weight: bolder;
+}
+
+.google button {
+        width: 70%;
+        border-radius: 8px;
+        border: gray solid 2px;
+        margin: auto;
+        background-color: white;
+        margin-top: 30px;
+        height: 30px;
+        cursor: pointer;
+}

@@ -1,0 +1,39 @@
+.list-options button {
+        border: none;
+        background-color: white;
+        cursor: pointer;
+
+
+
+}
+
+.list-options {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        margin-top: 50px;
+        padding-right: 50px;
+}
+
+.items hr {
+
+        width: 95%;
+        margin: auto;
+}
+
+.list-options button:hover {
+        color: rgb(0, 47, 255);
+}
+
+.list-items {
+        width: 20%;
+
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+
+}
+
+.list-items li {
+        margin-top: 20px;
+}

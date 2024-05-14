@@ -1,0 +1,73 @@
+.box {
+        width: 90%;
+        margin-left: 20px;
+        margin: auto;
+        margin-bottom: 30px;
+
+        background-color: white;
+        display: flex;
+        border-radius: 10px;
+
+
+}
+
+.first {
+        display: flex;
+
+        justify-content: space-between;
+}
+
+.first button {
+        background-color: blueviolet;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        margin-top: 10px;
+        width: 90px;
+        height: 32px;
+        gap: 5px;
+}
+
+.info {
+        display: grid;
+        grid-template-rows: 3;
+}
+
+.picture {
+        padding: 5px;
+        border-radius: 10px;
+}
+
+.picture img {
+        border-radius: 20px;
+}
+
+.time {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #E2E2E2;
+        width: 160%;
+        height: 50px;
+        gap: 20px;
+}
+
+.time button {
+        background-color: blueviolet;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        width: 80px;
+        height: 32px;
+        margin: 0px 5px 0px 5px;
+}
+
+.address {
+        display: flex;
+}
+
+.comment {
+        display: flex;
+}

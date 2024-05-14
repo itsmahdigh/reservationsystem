@@ -1,0 +1,13 @@
+.searchpage {
+        background-color: #E2E2E2;
+        height: fit-content;
+
+}
+
+.filterandtime {
+        display: grid;
+        grid-template-columns: 70% 90%;
+        padding-left: 20px;
+
+
+}

@@ -1,0 +1,15 @@
+.PriceBox {
+        width: 20%;
+        height: fit-content;
+        /* margin: auto; */
+        background-color: white;
+        padding: 20px;
+        margin-left: 50px;
+        margin-top: 50px;
+        border-radius: 10px;
+}
+
+.filter div {
+        display: flex;
+        align-items: start;
+}

@@ -1,0 +1,4 @@
+.populardata {
+        display: flex;
+        flex-wrap: wrap;
+}

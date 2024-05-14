@@ -1,0 +1,14 @@
+.card-info {
+        width: 20%;
+        height: 300px;
+        margin: auto;
+        border-radius: 20px;
+        margin-bottom: 5px;
+        background-color: white;
+        border: 1px solid purple;
+        margin-top: 20px;
+}
+
+.barbername {
+        font-size: xx-large;
+}

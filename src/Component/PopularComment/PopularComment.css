@@ -1,0 +1,35 @@
+.comments {
+        width: 17%;
+        margin: auto;
+
+        border-right: 1px solid gray;
+        padding: 10px;
+}
+
+.firstsection {
+        display: flex;
+}
+
+.info {
+        margin-right: 10px;
+}
+
+.textsection {
+        font-size: 11px;
+        text-align: right;
+}
+
+.info div {
+        text-align: right;
+}
+
+.star {
+        display: flex;
+        justify-content: space-between;
+}
+
+.avatar img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+}

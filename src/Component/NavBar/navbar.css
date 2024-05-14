@@ -1,0 +1,49 @@
+* {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+}
+
+.upeerMenu {
+        width: 100%;
+        background-color: #F1F2F4;
+        color:#6C6C6C;
+}
+
+.menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+
+}
+
+.button {
+        width: 75px;
+        height: 25px;
+        background-color: #247F9E;
+        border: none;
+        border-radius: 5px;
+        color: white;
+}
+
+.menu li {
+        margin: 0px 10px;
+}
+
+.Logobutton {
+        display: flex;
+        margin-top: 5px;
+        justify-content: space-between;
+}
+
+.logo {
+        width: 100px;
+        height: 60px;
+}
+
+.downMenu {
+
+        width: 90%;
+        margin: auto;
+}

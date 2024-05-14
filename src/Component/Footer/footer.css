@@ -1,0 +1,13 @@
+.footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 20px;
+        /* background-color: aqua; */
+        background-image: linear-gradient(to bottom, #6633FF, #6633FF, #0569FF);
+}
+
+.left img {
+        width: 100px;
+        height: 60px;
+        color: white;
+}
