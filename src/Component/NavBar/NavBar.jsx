@@ -8,16 +8,16 @@ class NavBar extends Component {
                         <div className='navbar'>
                                 <div className="upeerMenu">
                                         <ul className='menu'>
-                                                <li>قوانین مقررات</li>
+                                                <li><Link to={'/rules'}>قوانین مقررات </Link> </li>
                                                 <li>دانلود اپلیکیشن</li>
-                                                <li>درخواست همکاری</li>
+                                                 <li>درخواست همکاری</li>
                                         </ul>
                                 </div>
                                 <div className="downMenu">
                                         <ul className='Logobutton'>
                                                 <li><Link to={'/login'}><button className='button'>ورود/ثبت نام</button></Link></li>
 
-                                                <li><img className='logo' src={Logo} alt="" /></li>
+                                                <li><Link to={'/'}><img className='logo' src={Logo} alt="" /></Link></li>
                                         </ul>
                                 </div>
                         </div>

@@ -1,11 +1,14 @@
 import React from 'react'
 import '../Card/Searchcard.css'
 import Img1 from '../../assets/barbaeimg.jpg'
+import { Link } from 'react-router-dom'
 export default function SearchCard(props) {
         return (
                 <div className='box' dir='rtl'>
                         <div className="picture">
+                                <Link to={'/detail'}>
                                 <img src={Img1} alt="" />
+                                </Link>
                         </div>
                         <div className="info">
                                 <div className="first">

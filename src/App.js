@@ -6,6 +6,7 @@ import SignUp from './Component/Login/signup';
 import{Route,Routes,BrowserRouter, Outlet} from 'react-router-dom'
 import SearchPage from './pages/SearchPage';
 import DetailPage from './pages/DetailPage';
+import RulesPage from './pages/RulesPage';
 function App() {
   return (
     <div className='App'>
@@ -16,6 +17,7 @@ function App() {
           <Route path='/signup' element={<SignUp/>}/>
           <Route path='/search' element={<SearchPage/>}/>
           <Route path='/detail' element={<DetailPage />} />
+          <Route path='/rules' element={<RulesPage />} />
 
     </Routes>
     <Outlet/>
